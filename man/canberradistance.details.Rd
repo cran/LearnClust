@@ -29,9 +29,9 @@ y <- c(1,3)
 cluster1 <- matrix(x,ncol=2)
 cluster2 <- matrix(y,ncol=2)
 
-\donttest{canberradistance.details(x,y)}
+canberradistance(x,y)
 
-\donttest{canberradistance.details(cluster1,cluster2)}
+canberradistance(cluster1,cluster2)
 
 }
 \author{

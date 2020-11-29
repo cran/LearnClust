@@ -21,8 +21,8 @@
 
 maxDistance.details <-
   function(matrix){
-    message("\n 'maxDistance' function gets the minimal value from a matrix. \n")
-    message("\n It returns the minimal value avoiding 0 values. \n\n")
+    message("\n 'maxDistance' function gets the maximal value from a matrix. \n")
+    message("\n It returns the maximal value avoiding 0 values. \n\n")
     max <- initMax(matrix)
     for (i in (1:length(matrix))){
       value <- matrix[i]

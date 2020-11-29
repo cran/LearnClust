@@ -29,9 +29,9 @@ y <- c(1,3)
 cluster1 <- matrix(x,ncol=2)
 cluster2 <- matrix(y,ncol=2)
 
-\donttest{mdistance.details(x,y)}
+mdistance(x,y)
 
-\donttest{mdistance.details(cluster1,cluster2)}
+mdistance(cluster1,cluster2)
 
 }
 \author{

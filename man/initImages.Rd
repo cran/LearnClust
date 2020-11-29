@@ -12,15 +12,3 @@ initImages(path)
 \description{
 An auxiliar function to display a picture.
 }
-\details{
-This function is part of the hierarchical clusterization method. The function calculates the
-Euclidean distance value from \code{x} and \code{y}.
-}
-\examples{
-
-path <- "../man/images/euclideanDistance.PNG"
-
-\donttest{initImages(path)}
-
-
-}
